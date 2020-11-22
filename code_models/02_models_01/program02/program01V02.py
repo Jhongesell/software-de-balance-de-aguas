@@ -4,7 +4,7 @@ from GUI_01 import *
 from class01 import *
 # class MyForm(QMainWindow):
 
-class MyForm(QMainWindow):
+class MyForm(QMainWindow): 
     def __init__(self):
         super().__init__()
         self.ui = Ui_MainWindow()
