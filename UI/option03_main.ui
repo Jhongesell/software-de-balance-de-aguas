@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1111</width>
-    <height>534</height>
+    <width>1014</width>
+    <height>410</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1353,7 +1353,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1111</width>
+     <width>1014</width>
      <height>21</height>
     </rect>
    </property>
@@ -1377,8 +1377,20 @@
     <property name="title">
      <string>Help</string>
     </property>
+    <addaction name="actionAbout"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_software"/>
+   </widget>
+   <widget class="QMenu" name="menuEdition">
+    <property name="title">
+     <string>Edition</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
    </widget>
    <addaction name="menuMen"/>
+   <addaction name="menuEdition"/>
    <addaction name="menuWindow"/>
    <addaction name="menuHelp"/>
   </widget>
@@ -1417,6 +1429,40 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>Web of project</string>
+   </property>
+  </action>
+  <action name="actionAbout_software">
+   <property name="text">
+    <string>About software</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
    </property>
   </action>
  </widget>
