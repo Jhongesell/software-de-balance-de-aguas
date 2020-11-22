@@ -1,0 +1,38 @@
+
+# importamos todos los modulos que vamos a usar para crear
+# nuestra calculadora
+import kivy
+from kivy.app import App
+from kivi.uix.gridlayout import GridLayout
+
+# creamos un ojbeto usando el comando class,
+# esta se encargara de agrupar todos los widgets que necesitamos
+# como botones y cuadros de texo.
+class calculadora_screen(GridLayout):
+    # creamos la funciÃ³n que se encargara
+    # de hacer las operaciones matemÃ¡ticas
+
+    def calculate](self, calculation):
+        # usamos "if" para saber si el usuario a intentado
+        # realizar una operaciÃ³n, ya que si no fuera asÃ­
+        # aunque presionesmos "=" no pasara nada
+
+        if calculation:
+            # una vez que se confirme que el usuario si quiere
+            # realizar una operaciÃ³n usamos "try", de esta
+            # forma si algÃºn error ocurre podemos controlarlo
+            # ya que si no lo hacemos nustra app se cerrarÃ­a inmediatamente.
+
+            try:
+                # aqui nuestro cuadro de texto cambiara y nos mostrarÃ¡ el
+                # resultado de la operaciÃ³n, para evaluar las operaciones
+                # usamos "eval" que evaluara todo lo que esta en "calculation"
+                # y el resultado lo transformaremos a text usando "str"
+                self.display.text = str(eval(calculation))
+            # aqui no importando el error que ocurra
+            # controlaremos que no se cierre nuestra app
+
+            except Exception:
+                # cuando un error ocurra mostraremos el texto error
+                self.display.text = "Error"
+                
