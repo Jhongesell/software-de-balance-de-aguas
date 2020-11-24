@@ -1271,7 +1271,7 @@
                   <item>
                    <widget class="QTabWidget" name="tabWidget_2">
                     <property name="currentIndex">
-                     <number>1</number>
+                     <number>0</number>
                     </property>
                     <widget class="QWidget" name="tab_3">
                      <attribute name="title">
@@ -1616,7 +1616,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_12">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B01">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1629,7 +1629,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_13">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B02">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1642,7 +1642,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_14">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B03">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1655,7 +1655,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_15">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B04">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1668,7 +1668,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_16">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B05">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1681,7 +1681,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_17">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B06">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1694,7 +1694,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_18">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B07">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1707,7 +1707,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_19">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B08">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1720,7 +1720,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_20">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B09">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1733,7 +1733,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_21">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B10">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1746,7 +1746,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_22">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_B11">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1776,7 +1776,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_23">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C01">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1789,7 +1789,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_24">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C02">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1802,7 +1802,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_25">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C03">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1815,7 +1815,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_26">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C04">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1828,7 +1828,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_27">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C05">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1841,7 +1841,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_28">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C06">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1854,7 +1854,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_29">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C07">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1867,7 +1867,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_30">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C08">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1880,7 +1880,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_31">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C09">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1893,7 +1893,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_32">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C10">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1906,7 +1906,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_33">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_C11">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1936,7 +1936,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_34">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D01">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1949,7 +1949,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_35">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D02">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1962,7 +1962,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_36">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D03">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1975,7 +1975,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_37">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D04">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1988,7 +1988,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_38">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D05">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2001,7 +2001,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_39">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D06">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2014,7 +2014,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_40">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D07">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2027,7 +2027,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_41">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D08">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2040,7 +2040,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_42">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D09">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2053,7 +2053,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_43">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D10">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2066,7 +2066,7 @@
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_44">
+                           <widget class="QLineEdit" name="lineEdit_Tabla03_D11">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
