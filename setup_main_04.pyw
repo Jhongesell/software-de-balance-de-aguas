@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QFileDialog
-from UI.option04_main import *
+from UI.option05_main import *
 class MyForm(QMainWindow):
 
     # 01. Método inicial
@@ -23,6 +23,8 @@ class MyForm(QMainWindow):
         self.ui.mdiArea.addSubWindow(self.ui.subwindow_2)
         self.ui.mdiArea.addSubWindow(self.ui.subwindow_3)
         self.ui.mdiArea.addSubWindow(self.ui.subwindow_4)
+        self.ui.mdiArea.addSubWindow(self.ui.subwindow_5)
+        self.ui.mdiArea.addSubWindow(self.ui.subwindow_6)
         self.ui.actionSubWindow_View.triggered.connect(self.SubWindow_View)
         self.ui.actionTabbed_View.triggered.connect(self.Tabbed_View)
         self.ui.actionCascade_View.triggered.connect(self.cascadeArrange)
