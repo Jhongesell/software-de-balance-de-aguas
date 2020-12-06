@@ -1,4 +1,5 @@
 import sys
+import matplotlib as plt
 from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QFileDialog
 from UI.option05_main import *
 class MyForm(QMainWindow):
