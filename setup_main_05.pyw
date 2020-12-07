@@ -2,7 +2,18 @@ import sys
 import matplotlib as plt
 from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QFileDialog
 from UI.option05_main import *
+
+#from UI.mode_widget_logo import Ui_Form
+#from UI.logo import *
+
 class MyForm(QMainWindow):
+
+    # Invocando el mensaje de 'about'
+    #def openAboutWindow(self):
+     #   self.window = QtWidgets.QMainWindow()
+      #  self.ui = Ui_Form()
+       # self.ui.setupUi(self.window)
+        #self.window.show()
 
     # 01. Método inicial
     def __init__(self):
@@ -30,6 +41,9 @@ class MyForm(QMainWindow):
         self.ui.actionTabbed_View.triggered.connect(self.Tabbed_View)
         self.ui.actionCascade_View.triggered.connect(self.cascadeArrange)
         self.ui.actionTile_View.triggered.connect(self.tileArrange)
+
+        # Pestaña 'about'
+        #self.actionAbout_software.clicked.connect(self.openAboutWindow)
 
         # 01.04. Operacion para filas 3 y 4 (Min y Max precipitación)
         self.ui.pushButton_01.clicked.connect(self.tabla01_precipitacion)

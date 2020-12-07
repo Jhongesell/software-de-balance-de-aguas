@@ -9,7 +9,9 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+#import logo_rc
+# from logo import *
+import logo
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -29,8 +31,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-#import logo_rc
-import logo
+
 
 
 if __name__ == "__main__":
