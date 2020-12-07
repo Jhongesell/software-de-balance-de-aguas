@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1112</width>
-    <height>587</height>
+    <width>1367</width>
+    <height>618</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -67,7 +67,7 @@
               </property>
               <widget class="QWidget" name="subwindow">
                <property name="windowTitle">
-                <string>Tabla 01</string>
+                <string>01. Inputs - Table 01</string>
                </property>
                <layout class="QGridLayout" name="gridLayout">
                 <item row="0" column="0">
@@ -931,7 +931,7 @@
                   <item>
                    <widget class="QPushButton" name="pushButton_01">
                     <property name="styleSheet">
-                     <string notr="true">background-color: rgb(0, 255, 0);</string>
+                     <string notr="true">background-color: rgb(255, 255, 0);</string>
                     </property>
                     <property name="text">
                      <string>Clic</string>
@@ -944,7 +944,7 @@
               </widget>
               <widget class="QWidget" name="subwindow_2">
                <property name="windowTitle">
-                <string>Tabla 02</string>
+                <string>01. Inputs - Table 02</string>
                </property>
                <layout class="QGridLayout" name="gridLayout_2">
                 <item row="0" column="0">
@@ -1263,7 +1263,7 @@
               </widget>
               <widget class="QWidget" name="subwindow_3">
                <property name="windowTitle">
-                <string>Tabla 03</string>
+                <string>01. Inputs - Table 03</string>
                </property>
                <layout class="QGridLayout" name="gridLayout_5">
                 <item row="0" column="0">
@@ -1271,7 +1271,7 @@
                   <item>
                    <widget class="QTabWidget" name="tabWidget_2">
                     <property name="currentIndex">
-                     <number>1</number>
+                     <number>0</number>
                     </property>
                     <widget class="QWidget" name="tab_3">
                      <attribute name="title">
@@ -2907,7 +2907,7 @@
               </widget>
               <widget class="QWidget" name="subwindow_4">
                <property name="windowTitle">
-                <string>Tabla 04</string>
+                <string>01. Inputs - Table 04</string>
                </property>
                <layout class="QGridLayout" name="gridLayout_6">
                 <item row="0" column="0">
@@ -2936,6 +2936,9 @@
              <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
                <widget class="QPushButton" name="pushButton_2">
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));</string>
+                </property>
                 <property name="text">
                  <string>Generar reporte PDF</string>
                 </property>
@@ -2943,6 +2946,9 @@
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_3">
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255));</string>
+                </property>
                 <property name="text">
                  <string>Guardar valores en un archivo TXT</string>
                 </property>
@@ -2961,9 +2967,21 @@
          <layout class="QGridLayout" name="gridLayout_9">
           <item row="0" column="0">
            <widget class="QMdiArea" name="mdiArea_2">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 0, 255);</string>
+            </property>
+            <property name="background">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>170</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </property>
             <widget class="QWidget" name="subwindow_5">
              <property name="windowTitle">
-              <string>Subwindow</string>
+              <string>02. Escheme - Table 01</string>
              </property>
              <layout class="QGridLayout" name="gridLayout_10">
               <item row="0" column="0">
@@ -3030,22 +3048,46 @@
                 <item>
                  <layout class="QVBoxLayout" name="verticalLayout_36">
                   <item>
-                   <widget class="QLineEdit" name="lineEdit"/>
+                   <widget class="QLineEdit" name="lineEdit">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
                   </item>
                   <item>
-                   <widget class="QLineEdit" name="lineEdit_2"/>
+                   <widget class="QLineEdit" name="lineEdit_2">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
                   </item>
                   <item>
-                   <widget class="QLineEdit" name="lineEdit_3"/>
+                   <widget class="QLineEdit" name="lineEdit_3">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
                   </item>
                   <item>
-                   <widget class="QLineEdit" name="lineEdit_4"/>
+                   <widget class="QLineEdit" name="lineEdit_4">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
                   </item>
                   <item>
-                   <widget class="QLineEdit" name="lineEdit_5"/>
+                   <widget class="QLineEdit" name="lineEdit_5">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
                   </item>
                   <item>
-                   <widget class="QLineEdit" name="lineEdit_6"/>
+                   <widget class="QLineEdit" name="lineEdit_6">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
                   </item>
                  </layout>
                 </item>
@@ -3055,13 +3097,16 @@
             </widget>
             <widget class="QWidget" name="subwindow_6">
              <property name="windowTitle">
-              <string>Subwindow</string>
+              <string>02. Escheme -  Table 02</string>
              </property>
              <layout class="QGridLayout" name="gridLayout_11">
               <item row="0" column="0">
                <widget class="QTabWidget" name="tabWidget_3">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
                 <property name="currentIndex">
-                 <number>1</number>
+                 <number>0</number>
                 </property>
                 <widget class="QWidget" name="tab_5">
                  <attribute name="title">
@@ -5920,7 +5965,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1112</width>
+     <width>1367</width>
      <height>21</height>
     </rect>
    </property>
