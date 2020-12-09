@@ -1,0 +1,13 @@
+from OtherWindow import Ui_OtherWindow
+
+
+    def openWindow(self):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = Ui_OtherWindow()
+        self.ui.setupUi(self.window)
+        self.window.show()
+
+	.
+	.
+	.
+	self.verticalLayout.addWidget(self.btn_open_01)

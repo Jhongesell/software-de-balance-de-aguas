@@ -9,14 +9,21 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from OtherWindow import Ui_OtherWindow
+from OtherWindow_01 import Ui_OtherWindow
+from OtherWindow_02 import Ui_OtherWindow_02
 
 class Ui_MainWindow(object):
-    def openWindow(self):
-        self.window = QtWidgets.QMainWindow()
+    def openWindow_01(self):
+        self.window_01 = QtWidgets.QMainWindow()
         self.ui = Ui_OtherWindow()
-        self.ui.setupUi(self.window)
-        self.window.show()
+        self.ui.setupUi(self.window_01)
+        self.window_01.show()
+
+    def openWindow_02(self):
+        self.window_02 = QtWidgets.QMainWindow()
+        self.ui = Ui_OtherWindow_02()
+        self.ui.setupUi(self.window_02)
+        self.window_02.show()
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -34,13 +41,18 @@ class Ui_MainWindow(object):
         self.btn_open_01 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_open_01.setStyleSheet("background-color: rgb(255, 85, 0);")
         self.btn_open_01.setObjectName("btn_open_01")
-        self.btn_open_01.clicked.connect(self.openWindow)
+
+        self.btn_open_01.clicked.connect(self.openWindow_01)
+
         self.verticalLayout.addWidget(self.btn_open_01)
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.btn_open_02 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_open_02.setStyleSheet("background-color: rgb(255, 85, 0);")
         self.btn_open_02.setObjectName("btn_open_02")
+
+        self.btn_open_02.clicked.connect(self.openWindow_02)
+
         self.horizontalLayout.addWidget(self.btn_open_02)
         self.btn_open_03 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_open_03.setStyleSheet("background-color: rgb(255, 85, 0);")
