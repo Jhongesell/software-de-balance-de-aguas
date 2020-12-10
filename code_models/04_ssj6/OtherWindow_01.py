@@ -11,12 +11,12 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_OtherWindow(object):
-    def setupUi(self, OtherWindow):
-        OtherWindow.setObjectName("OtherWindow")
-        OtherWindow.resize(308, 219)
-        OtherWindow.setStyleSheet("background-color: rgb(15, 72, 115);")
-        self.centralwidget = QtWidgets.QWidget(OtherWindow)
+class Ui_OtherWindow_01(object):
+    def setupUi(self, OtherWindow_01):
+        OtherWindow_01.setObjectName("OtherWindow_01")
+        OtherWindow_01.resize(367, 219)
+        OtherWindow_01.setStyleSheet("background-color: rgb(15, 72, 115);")
+        self.centralwidget = QtWidgets.QWidget(OtherWindow_01)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
         self.gridLayout.setObjectName("gridLayout")
@@ -26,29 +26,19 @@ class Ui_OtherWindow(object):
         self.label.setFont(font)
         self.label.setObjectName("label")
         self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
-        OtherWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(OtherWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 308, 21))
+        OtherWindow_01.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(OtherWindow_01)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 367, 21))
         self.menubar.setObjectName("menubar")
-        OtherWindow.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar(OtherWindow)
+        OtherWindow_01.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(OtherWindow_01)
         self.statusbar.setObjectName("statusbar")
-        OtherWindow.setStatusBar(self.statusbar)
+        OtherWindow_01.setStatusBar(self.statusbar)
 
-        self.retranslateUi(OtherWindow)
-        QtCore.QMetaObject.connectSlotsByName(OtherWindow)
+        self.retranslateUi(OtherWindow_01)
+        QtCore.QMetaObject.connectSlotsByName(OtherWindow_01)
 
-    def retranslateUi(self, OtherWindow):
+    def retranslateUi(self, OtherWindow_01):
         _translate = QtCore.QCoreApplication.translate
-        OtherWindow.setWindowTitle(_translate("OtherWindow", "MainWindow"))
-        self.label.setText(_translate("OtherWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:48pt; color:#ffffff;\">tecprog</span></p><p align=\"center\"><span style=\" font-size:48pt; color:#ffffff;\">world</span></p></body></html>"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    OtherWindow = QtWidgets.QMainWindow()
-    ui = Ui_OtherWindow()
-    ui.setupUi(OtherWindow)
-    OtherWindow.show()
-    sys.exit(app.exec_())
+        OtherWindow_01.setWindowTitle(_translate("OtherWindow_01", "Síguenos!"))
+        self.label.setText(_translate("OtherWindow_01", "<html><head/><body><p align=\"center\"><span style=\" font-size:72pt; color:#ffffff;\">TW</span></p></body></html>"))

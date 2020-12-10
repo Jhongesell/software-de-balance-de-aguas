@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_OtherWindow_02(object):
     def setupUi(self, OtherWindow_02):
         OtherWindow_02.setObjectName("OtherWindow_02")
-        OtherWindow_02.resize(426, 211)
+        OtherWindow_02.resize(138, 200)
         OtherWindow_02.setStyleSheet("background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));")
         self.centralwidget = QtWidgets.QWidget(OtherWindow_02)
         self.centralwidget.setObjectName("centralwidget")
@@ -25,7 +25,7 @@ class Ui_OtherWindow_02(object):
         self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
         OtherWindow_02.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(OtherWindow_02)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 426, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 138, 21))
         self.menubar.setObjectName("menubar")
         OtherWindow_02.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(OtherWindow_02)
@@ -38,7 +38,7 @@ class Ui_OtherWindow_02(object):
     def retranslateUi(self, OtherWindow_02):
         _translate = QtCore.QCoreApplication.translate
         OtherWindow_02.setWindowTitle(_translate("OtherWindow_02", "Productos"))
-        self.label.setText(_translate("OtherWindow_02", "<html><head/><body><p><span style=\" font-size:14pt;\">Nasto: Solver para la ecuación de Navier-Stokes.</span></p><p><span style=\" font-size:14pt;\">Yubarta: Calculo del volumen a dragar.</span></p><p><span style=\" font-size:14pt;\">GQLS: Gestor de caudales líquidos y solidos.</span></p><p><span style=\" font-size:14pt;\">Glac: Gestor de liquido agua confinada.</span></p></body></html>"))
+        self.label.setText(_translate("OtherWindow_02", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">- Programa 01</span></p><p align=\"center\"><span style=\" font-size:14pt;\">- Programa 02</span></p><p align=\"center\"><span style=\" font-size:14pt;\">- Programa 03</span></p><p align=\"center\"><span style=\" font-size:14pt;\">- Programa 04</span><br/></p></body></html>"))
 
 
 if __name__ == "__main__":
