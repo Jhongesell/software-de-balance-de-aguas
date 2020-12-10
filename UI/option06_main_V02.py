@@ -3183,13 +3183,3 @@ class Ui_VentanaPrincipalSBW(object):
         self.actionAbout_software.setText(_translate("VentanaPrincipalSBW", "About software"))
         self.actionCut.setText(_translate("VentanaPrincipalSBW", "Cut"))
         self.actionCut.setShortcut(_translate("VentanaPrincipalSBW", "Ctrl+X"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    VentanaPrincipalSBW = QtWidgets.QMainWindow()
-    ui = Ui_VentanaPrincipalSBW()
-    ui.setupUi(VentanaPrincipalSBW)
-    VentanaPrincipalSBW.show()
-    sys.exit(app.exec_())
